@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    position: relative;
+}
+nav{
+    position: fixed;
+    right: 20%;    
+}
+li{
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 10px;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left:0;
+}
+#aaa{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    background-image: url(./imges/2022_April_1920x1080_01.jpg);
+    background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+#aaaa{
+    height: 500px;
+    background-image: url(./imges/2022_April_1920x1080_03.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bbb{
+    height: 500px;
+    width: 100%;
+    background-color: cadetblue;
+    background-image: url(./imges/2022_April_1920x1080_01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ccc{
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(./imges/2022_April_1920x1080_02.jpg);
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ddd{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(./imges/2022_April_1920x1080_01.jpg);
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%
+    );
+    padding: 5px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: azure;
+    
+}
+.ddaa{
+    text-decoration: none;
+
+}
